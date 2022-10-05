@@ -1,0 +1,50 @@
+.whyus{
+
+}
+.whyus .whyus_title{
+    margin-bottom: 30px;
+}
+.whyus .whyus_title h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+.whyus .whyus_underline{
+    background-color: #1E9CBC;
+    height: 2px;
+    width: 44px;
+}
+.whyus .whyus_col1 .whyus_col1--content{
+    /* padding-right: 81px; */
+    text-align:justify ;
+    margin-bottom: 40px;
+}
+.whyus .whyus_col1 .whyus_col1--content p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.5px;
+
+}
+.whyus .whyus_col1 .whyus_col1--btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#1E9CBC ;
+    width: 97px;
+    height: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.whyus .whyus_col1 .whyus_col1--btn a:hover{
+    background-color:#f7ab61 ;
+    color: white;
+}
+@media (max-width:576px){
+    .whyus_col1--btn a{
+        margin: auto;
+    }
+}
+
